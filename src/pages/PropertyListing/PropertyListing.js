@@ -132,7 +132,7 @@ const PropertyListing = () => {
     e.preventDefault();
     // Handle form submission logic here
     console.log(formData);
-    alert('Property listed successfully!');
+    alert('Property posted successfully!');
   };
 
   return (
@@ -140,7 +140,7 @@ const PropertyListing = () => {
       <Header />
       <Container>
         <Form onSubmit={handleSubmit}>
-          <Title>List Your Property</Title>
+          <Title>Post Your Property</Title>
 
           <Section>
             <SectionTitle>Basic Information</SectionTitle>
@@ -258,7 +258,7 @@ const PropertyListing = () => {
             </ImageUploadContainer>
           </Section>
 
-          <Button type="submit">List Property</Button>
+          <Button type="submit">Post Property</Button>
         </Form>
       </Container>
     </>

@@ -1,5 +1,5 @@
-// src/components/Header/Header.js
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import styled from 'styled-components';
 
@@ -28,7 +28,7 @@ const NavLinks = styled.div`
   align-items: center;
 `;
 
-const NavLink = styled.a`
+const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   color: #333;
   &:hover {
@@ -53,11 +53,11 @@ const Header = () => {
       <Nav>
         <Logo>La-Wasit</Logo>
         <NavLinks>
-          <NavLink href="#">Buy</NavLink>
-          <NavLink href="#">Rent</NavLink>
-          <NavLink href="#">Sell</NavLink>
-          <NavLink href="#">Commercial</NavLink>
-          <NavLink to="/list-property">List Property</NavLink>
+          <StyledNavLink to="#">Buy</StyledNavLink>
+          <StyledNavLink to="#">Rent</StyledNavLink>
+          <StyledNavLink to="#">Sell</StyledNavLink>
+          <StyledNavLink to="#">Commercial</StyledNavLink>
+          <StyledNavLink to="/list-property">Post Property</StyledNavLink>
           <Button onClick={logout}>Logout</Button>
         </NavLinks>
       </Nav>

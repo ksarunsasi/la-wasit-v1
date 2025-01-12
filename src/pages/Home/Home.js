@@ -9,7 +9,7 @@ import { useAuth } from '../../contexts/AuthContext';
 
 
 const HeroSection = styled.div`
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  background: linear-gradient(rgba(167, 9, 9, 0.6), rgba(0,0,0,0.6)),
               url('/hero-background.jpg');
   background-size: cover;
   background-position: center;
@@ -99,7 +99,7 @@ const Home = () => {
                 bedrooms: "3",
                 area: "1200 sq.ft",
                 furnishing: "Semi-furnished",
-                type: 'Apartment'
+                type: 'buy'
             },
             {   id: 2, 
                 image: "https://via.placeholder.com/300x200", 
@@ -108,7 +108,7 @@ const Home = () => {
                 bedrooms: "2",
                 area: "2400 sq.ft",
                 furnishing: "Semi-furnished",
-                type: 'House'
+                type: 'buy'
             },
             {   id: 3, 
                 image: "https://via.placeholder.com/300x200", 
@@ -117,7 +117,7 @@ const Home = () => {
                 bedrooms: "3",
                 area: "2400 sq.ft",
                 furnishing: "Semi-furnished",
-                type: 'Villa'
+                type: 'buy'
             },
             {   id: 4, 
                 image: "https://via.placeholder.com/300x200", 
@@ -125,8 +125,8 @@ const Home = () => {
                 location: "Parliment, Delhi",
                 bedrooms: "2",
                 area: "2400 sq.ft",
-                furnishing: "Semi-furnished",
-                type: 'Villa'
+                furnishing: "unfurnished",
+                type: 'buy'
             },
             {   id: 5, 
                 image: "https://via.placeholder.com/300x200", 
@@ -135,7 +135,7 @@ const Home = () => {
                 bedrooms: "3",
                 area: "3000 sq.ft",
                 furnishing: "Full-furnished",
-                type: 'Villa'
+                type: 'buy'
             },
             {   id: 6, 
                 image: "https://via.placeholder.com/300x200", 
@@ -144,7 +144,7 @@ const Home = () => {
                 bedrooms: "2",
                 area: "1000 sq.ft",
                 furnishing: "Full-furnished",
-                type: 'House'
+                type: 'buy'
             }    
           ];
       

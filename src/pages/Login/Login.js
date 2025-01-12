@@ -56,7 +56,7 @@ const Login = () => {
     // Demo credentials
     if (email === 'demo@example.com' && password === 'password123') {
       login({ email });
-      navigate('/');
+      navigate('/home');
     } else {
       alert('Please use demo@example.com and password123');
     }

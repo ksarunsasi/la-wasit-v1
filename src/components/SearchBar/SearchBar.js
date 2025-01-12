@@ -86,7 +86,7 @@ const SearchBar = ({ properties, onSearch }) => {
   const [searchType, setSearchType] = useState('buy');
   const [searchInput, setSearchInput] = useState('');
   const [filters, setFilters] = useState({
-    propertyType: '',
+    type: '',
     bedrooms: '',
     furnishing: ''
   });
