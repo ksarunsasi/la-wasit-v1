@@ -1,0 +1,15 @@
+/* HoverEffect.module.css */
+.hover-item {
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .hover-item:hover {
+    background-color: darkblue;
+    color: white;
+  }
